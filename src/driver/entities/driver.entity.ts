@@ -15,5 +15,5 @@ export class Driver {
   password: string;
 
   @Column('text')
-  document: number;
+  document: string;
 }
